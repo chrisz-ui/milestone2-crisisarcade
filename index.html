@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Crisis Arcade</title>
+</head>
+<body>
+  <div class="container">
+      <div id="title">
+        titel
+      </div>
+  </div>
+
+      <div class="slider">
+        <div><img src="/assets/img/arcade-game3.gif" alt="Image 1"></div>
+        <div><img src="/assets/img/arcade-game3.gif" alt="Image 2"></div>
+        <div><img src="/assets/img/arcade-game3.gif" alt="Image 3"></div>
+      </div>
+
+      <div class="game-selector">
+        <div class="prev left-button">left</div>
+        <div class="next right-button">right</div>
+      </div>
+        
+      <div id="bottom">
+        bottom
+      </div>
+  </div>        
+
+<link rel="icon" href="data:;base64,iVBORw0KGgo=">
+<script src="https://code.jquery.com/jquery-3.6.0.slim.js" integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+  $('.slider').slick({
+    prevArrow: $('.prev'),
+    nextArrow: $('.next'),
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerMode: true,
+    variableWidth: false,
+});
+</script>
+
+
+</body>
+</html>

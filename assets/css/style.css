@@ -1,0 +1,34 @@
+/* ---------------------------------Positioning */
+.container {
+  text-align: center;
+  height: 10vh;
+  position: relative;
+  border: 3px solid green;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border: 3px solid green;
+}
+
+#game1 {
+  border: 3px solid red;
+}
+
+.game-selector {
+  cursor: pointer;
+  border: 3px solid green;
+}
+
+.prev {left: 80px;}
+.next {right: 80px;}
+
+.my-carousel {
+  border: 3px solid pink;
+}
+
